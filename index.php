@@ -10,7 +10,7 @@
     <?php 
         $badWord = 'Chi legge è scemo';
         $replaceWord = $_GET['replaceWord'];
-        $censuredWord = str_replace($replaceWord, 'una brava persona', $badWord);
+        $censuredWord = str_replace($replaceWord, '***', $badWord);
     ?>
 
     <h2><?php echo $badWord ?></h2>
